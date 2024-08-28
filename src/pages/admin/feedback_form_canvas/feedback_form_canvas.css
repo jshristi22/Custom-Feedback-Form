@@ -1,0 +1,48 @@
+.createFeedbackFormContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.canvasContainer {  
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;  
+}
+.canvas { 
+  width: 500px;
+}
+
+.canvasLabel {
+  background-color: #5578f4;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 20px 0;
+}
+h4 {
+  font-size: 24px;
+  color: white;
+  text-transform: capitalize;
+}
+.emptyFormState {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyFormStateText {
+  color: #5c5858;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+}
+
+.sidebarContainer{        
+}
+
+.fieldsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

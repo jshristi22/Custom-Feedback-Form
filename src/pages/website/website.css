@@ -1,0 +1,31 @@
+.websiteFeedbackFormContainer {
+  min-width: 450px;
+  background: #fff;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 700px;
+  overflow: auto;
+}
+.websiteFeedbackFormTitle {  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #5578f4;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 0px 4px 0 24px;
+  color: #ffffff;
+}
+.websiteFeedbackFormQuestions {
+  padding: 16px 24px;
+}
+.websiteFeedbackFormCtaBtn{
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

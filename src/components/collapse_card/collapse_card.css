@@ -1,0 +1,11 @@
+.collapseCardHeader {
+  font-size: 16px !important;
+}
+
+.que,
+.ans {
+  font-size: 14px;
+}
+.ans {
+  color: #2323239e;
+}

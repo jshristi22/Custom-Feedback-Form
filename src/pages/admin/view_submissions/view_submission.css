@@ -1,0 +1,52 @@
+.viewSubmissionsContainer {
+  padding: 50px 30px;
+}
+
+.viewSubmissionsCardHeader {
+  padding: 0px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5578f4;
+  height: 68px;
+  color: white;
+}
+.viewSubmissionsBody {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.viewSubmissionsTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logistics {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.views,
+.submissions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.viewSubmissionsLogisticsData {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.viewSubmissionsLogisticsText {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: 600;
+}

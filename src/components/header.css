@@ -1,0 +1,13 @@
+.customHeader {
+  display: flex;
+  align-items: center;
+}
+
+.ctaBtn {
+  display: flex;
+  gap: 20px;
+}
+p {
+  font-size: 24px;
+  font-weight: 500;
+}

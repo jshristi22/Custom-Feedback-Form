@@ -1,0 +1,11 @@
+.dashboardContainer {
+    width: 100%;
+}
+
+.cards{
+    margin: 55px auto;
+    padding: 0 44px;
+    display: flex;
+    gap: 34px;
+    flex-wrap: wrap;
+}
