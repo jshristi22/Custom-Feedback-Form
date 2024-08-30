@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# Custom Feedback Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Deployed at: https://custom-feedback-form.netlify.app/
 
-Currently, two official plugins are available:
+* In order to customize forms:
+  1. Visit /admin url
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+UI Demo
+![image](https://github.com/user-attachments/assets/6e1fc4a4-ce24-4e95-a6f7-f4d2998f70be)
+![image](https://github.com/user-attachments/assets/7d9eb932-7fa0-455a-af1a-b62baba36ae5)
+![image](https://github.com/user-attachments/assets/9c3de6e9-a6b7-471d-8c83-44407ea12698)
+![image](https://github.com/user-attachments/assets/eecee4f1-596f-4aaf-89a5-8948d2f12e49)
+![image](https://github.com/user-attachments/assets/6946d685-17fd-402c-aca6-91c0c4ae5b4b)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
