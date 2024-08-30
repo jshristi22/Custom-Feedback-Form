@@ -12,8 +12,7 @@ import FormField from "../admin/sidebar/component/form_fields";
 import CloseIcon from "@mui/icons-material/Close";
 import "./website.css";
 import dayjs from "dayjs";
-import Dashboard from "../admin/dashboard";
-
+import Dashboard from "../admin/dashboard/dashboard";
 
 function Website() {
   const [forms, setForms] = useState<IFormEntity[]>([]);
@@ -136,7 +135,7 @@ function Website() {
 
   return (
     <div>
-      {feedbackForm && (
+      {feedbackForm?.questions && (
         <Modal
           open
           style={{

@@ -5,12 +5,12 @@ import {
   CardContent,
   Typography,
 } from "@mui/material";
-import cardIcon from "../../assets/images/survey_icon.png";
+import cardIcon from "../../../assets/images/survey_icon.png";
 import "./feedback_card.css";
 import AddIcon from "@mui/icons-material/Add";
-import { IFormEntity } from "./feedback_form_canvas/feedback_from_canvas";
+import { IFormEntity } from "../feedback_form_canvas/feedback_from_canvas";
 import dayjs from "dayjs";
-import { db } from "../../firebase/firebase";
+import { db } from "../../../firebase/firebase";
 
 function FeedbackCard({
   data,
