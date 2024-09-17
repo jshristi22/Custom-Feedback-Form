@@ -29,14 +29,18 @@ Developed a dynamic feedback form application where the **Admin** can create, ed
   1. Choose Admin from the sidebar
 
 
-UI Demo
-![image](https://github.com/user-attachments/assets/6e1fc4a4-ce24-4e95-a6f7-f4d2998f70be)
-![image](https://github.com/user-attachments/assets/7d9eb932-7fa0-455a-af1a-b62baba36ae5)
-![image](https://github.com/user-attachments/assets/9c3de6e9-a6b7-471d-8c83-44407ea12698)
-![image](https://github.com/user-attachments/assets/eecee4f1-596f-4aaf-89a5-8948d2f12e49)
-![image](https://github.com/user-attachments/assets/6946d685-17fd-402c-aca6-91c0c4ae5b4b)
+### UI Demo
 
+![image](https://github.com/user-attachments/assets/3e638ebe-d25d-4d4a-b185-ff5fbe1c294d)
+![image](https://github.com/user-attachments/assets/64aeb4ed-d998-434d-9455-75c04ec95fe5)
+![image](https://github.com/user-attachments/assets/a381e229-b078-47ef-8bdf-5f17674c12fe)
+![image](https://github.com/user-attachments/assets/cffc77b5-6339-4b6a-b3bf-a7c01a758631)
+![image](https://github.com/user-attachments/assets/d1de17e3-c46a-411d-aa6f-6f537cd538d8)
+![image](https://github.com/user-attachments/assets/1471beb5-798e-42b9-89f5-f8e7a727cc3d)
+![image](https://github.com/user-attachments/assets/1d77195f-2096-4f0c-8227-fbe5f272077a)
+![image](https://github.com/user-attachments/assets/8b515ce6-1a68-43ba-97c6-5f15b06a91a9)
 
+![image](https://github.com/user-attachments/assets/31920a56-e874-462b-b337-0f17a77802c8)
 
 
 
